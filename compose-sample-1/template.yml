@@ -2,7 +2,7 @@
 # All 2.x and 3.x features supported
 # Docker Swarm still needs a 3.x version
 # version: '3.9'
-
+version: '2'
 services:  # containers. same as docker run
   servicename: # a friendly name. this is also DNS name inside network
     image: # Optional if you use build:
